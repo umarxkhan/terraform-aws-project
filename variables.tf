@@ -49,3 +49,5 @@ variable "instance_name" {
 variable "alert_email" {
   default = "umar.mak@gmail.com"
 }
+
+

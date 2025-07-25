@@ -67,6 +67,14 @@ terraform-aws-project/
 ├── main.tf        # Billing alert module resources
 ├── variables.tf   # Billing alert module variables
 ├── outputs.tf     # Billing alert module outputs
+│
+├── s3_static_site/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── site-content/
+│        ├── index.html
+│        └── error.html
 
 ````
 
