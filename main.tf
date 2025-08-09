@@ -3,8 +3,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source     = "./vpc"
-  aws_region = var.aws_region
+  source = "./vpc"
 }
 
 module "subnet" {
@@ -49,10 +48,6 @@ module "ec2" {
 module "billing_alert" {
   source      = "./billing_alert"
   alert_email = var.alert_email
-}
-
-output "instance_public_ip" {
-  value = module.ec2.public_ip
 }
 
 

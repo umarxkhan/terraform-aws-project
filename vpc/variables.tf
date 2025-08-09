@@ -10,8 +10,3 @@ variable "vpc_name" {
   default     = "main-vpc"
 }
 
-variable "aws_region" {
-  description = "The AWS region to deploy the VPC in"
-  type        = string
-}
-
